@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Projects - Portfolio</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Welz</a>
+
+        <nav>
+            <a href="index.html"> Home</a>
+            <a href="projects.html" class="active">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="projects">
+        <h1 class="section-title">My Projects</h1>
+        <div class="projects-container">
+            <div class="project-card">
+                <h2>Real State Appointment Project</h2>
+                <p>Me and my classmate with our project in senior high</p>
+                <a href="https://koipix.github.io/Aespire-Appointment/Appointment-System/index.html" target="_blank" class="btn">View Project</a>
+            </div>
+            
+            <div class="project-card">
+                <h2>ITC Project</h2>
+                <p>This is my Last Project about calculators</p>
+                <a href="https://welzie2.github.io/ITC/index.html" target="_blank" class="btn">View Project</a>
+            </div>
+        </div>
+
+    </div>
+    </section>
+
+    <style>
+        .section-title {
+            text-align: center;
+            font-size: 3rem;
+            color: #0C969C;
+            margin: 2rem 0;
+        }
+
+        .projects-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+            padding: 2rem;
+        }
+
+        .project-card {
+            background-color: #161616;
+            border: 2px solid #0C969C;
+            border-radius: 20px;
+            padding: 1.5rem;
+            text-align: center;
+            width: 300px;
+            box-shadow: 0 0 10px #0C969C;
+            transition: transform 0.3s ease;
+        }
+        .project-card {
+            background-color: #161616;
+            border: 2px solid #0C969C;
+            border-radius: 20px;
+            padding: 1.5rem;
+            text-align: center;
+            width: 300px;
+            box-shadow: 0 0 10px #0C969C;
+            transition: transform 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: scale(1.05);
+        }
+
+        .project-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .project-card h2 {
+            font-size: 2rem;
+            margin: 1rem 0;
+            color: #0C969C;
+        }
+
+        .project-card p {
+            font-size: 1.4rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background-color: #0C969C;
+            color: #031716;
+            font-size: 1.4rem;
+            font-weight: 600;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #062C2A;
+            color: white;
+        }
+    </style>
+</body>
+</html>
